@@ -8,6 +8,7 @@ version '0.1.0'
 
 depends 'apt', '~> 4.0.2'
 depends 'firewall', '~> 2.5.2'
+depends 'httpd', '~> 0.4.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
