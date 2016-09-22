@@ -1,10 +1,13 @@
 name 'awesome_customers_ubuntu'
-maintainer 'The Authors'
+maintainer 'Brett Bim'
 maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures awesome_customers_ubuntu'
 long_description 'Installs/Configures awesome_customers_ubuntu'
 version '0.1.0'
+
+depends 'apt', '~> 4.0.2'
+depends 'firewall', '~> 2.5.2'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
